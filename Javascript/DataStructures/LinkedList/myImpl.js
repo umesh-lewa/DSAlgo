@@ -66,7 +66,7 @@ console.log(ll.toArray(true));
 
 // Impl 2
 
-class LinkedListNode(){
+class LinkedListNode{
 
     constructor(value){
         this.element = value;
