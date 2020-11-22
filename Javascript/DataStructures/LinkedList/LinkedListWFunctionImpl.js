@@ -121,7 +121,7 @@ function LinkedList() {
         var currentNode = head;
         var previousNode;
         var currentIndex = 0;
-        
+
         if (index < 0 || index >= length) {
             return null
         }
@@ -142,11 +142,13 @@ function LinkedList() {
 }
 
 var conga = new LinkedList();
+
 conga.add('Kitten');
 conga.add('Puppy');
 conga.add('Dog');
 conga.add('Cat');
 conga.add('Fish');
+
 console.log(conga.size());
 console.log(conga.removeAt(3));
 console.log(conga.elementAt(3));
