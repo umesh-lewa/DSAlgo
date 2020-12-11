@@ -43,6 +43,9 @@ class Stack{
 }
 
 
+
+
+
 let s = new Stack();
 s.push(1);
 s.push(2);
